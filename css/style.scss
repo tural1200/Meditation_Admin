@@ -1,0 +1,50 @@
+.container {
+  min-height: 50rem;
+
+  .head {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+          width: 20px;
+      }
+  }
+
+  .row {
+    .my-col1 {
+      min-height: 100px;
+      display: flex;
+
+      flex-direction: column;
+
+      .photo {
+        background-color: gray;
+        width: 300px;
+        height: 300px;
+      }
+
+      .about {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .my-col2 {
+      min-height: 500px;
+    }
+  }
+
+  .submit {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      a {
+          text-decoration: none;
+          color: white;
+          border-radius: 10px;
+          padding: 10px 30px;
+          background-color: rgb(199, 139, 29);
+      }
+  }
+}
